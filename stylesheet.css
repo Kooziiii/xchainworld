@@ -183,10 +183,22 @@ transform:translate(-50%,-50%);
 /*------------------------------*/
 
 #overview{
-  background-color: none;
   border-bottom: 5px dashed black;
   border-top: 7px dashed white;
-  height:550px;
+
+}
+
+#overview .col-md-12{
+  background-color: rgb(255,0,0,0.1);
+  margin-top:5%;
+  margin-bottom:5%;
+  width:100%;
+  height:100%;
+  background: inherit;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 .overview-content li{
@@ -198,7 +210,7 @@ transform:translate(-50%,-50%);
 .overview-text{
   display: inline-block;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 80px;
   font-size:17px;
   letter-spacing: 5px;
   width:500px;
@@ -214,8 +226,91 @@ transform:translate(-50%,-50%);
 /*-------------------------------------*/
 /*-------------------------------------*/
 
+
+
+/*game-characteristic*/
+#game-characteristic{
+  border-bottom: 5px dashed black;
+  width:100%;
+}
+
+#game-characteristic .col-md-12{
+  background-color: rgb(255,0,0,0.1);
+  margin-bottom:5%;
+  margin-right: 5%;
+  margin-top:5%;
+  width:100%;
+  height:100%;
+  background: inherit;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+}.game-characteristic-title{
+  margin-bottom:6%;
+}
+
+.game-characteristic-list{
+  margin-top:6%;
+}
+
+.characteristic-frame{
+  height:250px;
+  width:100%;
+  border:3px solid #68727e;
+  margin-bottom:7%;
+  border-radius: 15px;
+}
+
+.characteristic-frame-left{
+  margin-left: 3%;
+}
+
+.characteristic-frame-right{
+  margin-left: -4%
+}
+
+
+.characteristic-img-left{
+  float:left;
+  margin-left:7%;
+}
+
+.characteristic-img-left,.characteristic-img-right{
+  margin-top: 5%;
+  width:17%;
+}
+.characteristic-content{
+  margin-top: 3%;
+}
+
+
+.characteristic-content{
+  float:left;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+/*characteristicの設定終了*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
 #game-content{
   border-bottom: 5px dashed black;
+}
+
+#game-content .col-md-12{
+  background-color: rgb(255,0,0,0.1);
+  margin-top:5%;
+  margin-bottom:5%;
+  width:100%;
+  height:100%;
+  background: inherit;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 .game-content-list{
@@ -246,260 +341,74 @@ transform:translate(-50%,-50%);
 /*-------------------------------------*/
 /*-------------------------------------*/
 
-/*game-characteristic*/
-#game-characteristic{
-  
-}
-
-
-.game-characteristic-list li{
-  float:left;
-  width:100%;
-  border: 1px solid black;
-}
-
-.outer_flame_characteristic{
-  display:inline-block;
-  width:100%;
-  height: 400px;
-}
-
-.characteristic_subject1{
-  font-size: 40px;
-  padding-top:50px;
-  text-align: center;
-}
-
-.characteristic_subject2{
-  font-size: 40px;
-  padding-top:50px;
-  text-align: center;
-}
-
-.characteristic_subject3{
-  font-size: 40px;
-  padding-top:50px;
-  text-align: center;
-}
-
-.characteristic_subject4{
-  font-size: 40px;
-  padding-top:50px;
-  text-align: center;
-}
-
-.characteristic_subject5{
-  font-size: 40px;
-  padding-top:50px;
-  text-align: center;
-}
-
-.characteristic_subject6{
-  font-size: 40px;
-  padding-top:50px;
-  text-align: center;
-}
-
-.characteristic{
-  width:170%;
-}
-
-.main_content{
-  display: flex;
-}
-
-.characteristic_textA{
-  display: inline-block;
-  padding-top:50px;
-  padding-left:237px;
-  font-size: 20px;
-  line-height:35px;
-}
-
-.characteristic_textB{
-  display: inline-block;
-  padding-top:50px;
-  padding-left:134px;
-  font-size: 20px;
-  line-height:35px;
-}
-
-.characteristic_photoboxA{
-  display: inline-block;
-  padding-left:100px;
-  padding-top:5px;
-
-}
-
-.characteristic_photoboxB{
-  display: inline-block;
-  padding-left:140px;
-  padding-top:5px;
-}
-
-.characteristic2{
-  float:right;
-  padding-right: 40px;
-}
-
-.characteristic4{
-  float:right;
-  padding-right: 40px;
-}
-
-.characteristic6{
-  float:right;
-  padding-right: 40px;
-}
-
-
 /*member*/
 #member{
   width:100%;
-  border-top: 5px solid black;
 }
 
-.member_title{
-  color:#68727e;
-  font-size: 45px;
-  text-align: center;
-  padding-top:100px;
-  padding-bottom:50px;
-  letter-spacing: 0.7mm;
+#member .col-md-12{
+  background-color: rgb(255,0,0,0.1);
+  margin-bottom:5%;
+  margin-right: 5%;
+  margin-top:5%;
+  width:100%;
+  height:100%;
+  background: inherit;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
-.outer_flame_member{
+.member-title{
+  margin-bottom:6%;
+}
+
+
+.member-frame{
   border-radius: 5%;
-  width: 260px;
-  height: 400px;
+  width: 250px;
+  height: 380px;
   background-color: white;
   border: 2px solid #68727e;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  margin-left: 8%;
+  margin-bottom: 15%;
 }
 
-.outer_flame_member:hover{
+.member-frame:hover{
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.25);
   transform: translateY(-0.1875em);
 }
 
-.member_img_list{
-  color:white;
+.member-img-list{
   text-align: center;
   display:inline-block; 
-  padding-left: 20px;
-  line-height: 20px;
-  opacity: 100%;
 }
 
-.outer_flame_member h4{
+.member-frame h4{
   display: inline-block;
-  font-size: 18px;
   padding-top:10px;
   color:#7289da;
   border-bottom: dotted 3px #7289da;
 }
 
-.outer_flame_member h5{
-  padding-top:7px;
-  padding-bottom:7px;
-  color:#68727e;
-}
-
-.outer_flame_member p{
-  font-size: 13px;
-  color:#68727e;
-}
-
-.member_img_list li{
-  display:inline-block; 
-  margin: 0 center;
-  float: left;
-  padding-left:70px;
-}
-
-.member_photobox img{
+.member-photobox img{
   margin-top:45px;
-  display:inline-block; 
   border-radius: 50%;
-  width:  180px;       
-  height: 180px;
-  border: 2px solid #68727e;
-}
-.member3 {
-  margin-right:20px;
-}
-.member4{
-  margin-right:20px;
+  width:  170px;       
+  height: 170px;
+  border: 1px solid #68727e;
+  
 }
 
-/*#contactform*/
-
-#contact_form{
-	width:100%;
-	height:100%;
+.member3,.member4{
+  margin-right:7%;
 }
 
-.contact_form_title{
-  color:#68727e;
-  font-size: 45px;
-  text-align: center;
-  padding-top:100px;
-  padding-bottom:50px;
-  letter-spacing: 0.7mm;
-}
-
-input[type="text"], 
-textarea {
-  padding: 0.8em;
-  outline: none;
-  border: 1px solid #DDD;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 16px;
-  width: 500px;
-}
-
-textarea{
-  height:200px;
-}
-
-form{
-  padding-left: 270px;
-}
-
-input[type="submit"]{
-  padding: 0.8em;
-  outline: none;
-  width:885px;
-  border: 1px solid #DDD;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 16px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all  0.3s ease;
-}
-
-input[type="submit"]:hover{
-  background-color:#b1eeff;
-}
-
-.name_input{
-  padding-bottom: 15px;
-}
-
-.mainrext_entry_field{
-  vertical-align: top;
-  line-height:225px;
-}
-
-.submit_botton{
-  padding-top:40px;
-}
-
+/*memberの設定終了*/
+/*-------------------------------------*/
+/*-------------------------------------*/
 
 /*ここから下がフッターの設定*/
 footer {
