@@ -214,9 +214,41 @@ transform:translate(-50%,-50%);
 /*-------------------------------------*/
 /*-------------------------------------*/
 
+#game-content{
+  border-bottom: 5px dashed black;
+}
+
+.game-content-list{
+  margin-top:6%;
+  margin-left:3%;
+}
+
+.game-content-subtitle{
+  text-align:center;
+  margin-right:15%;
+  font-size:1.3em;
+}
+.game-content-frame{
+}
+
+.game-content-img{
+  float:left;
+  margin-right:8%;
+  margin-bottom:8%;
+  width:25%;
+}
+
+.game-content-text{
+  padding-top:1%;
+}
+
+/*copntentの設定終了*/
+/*-------------------------------------*/
+/*-------------------------------------*/
+
 /*game-characteristic*/
-#game_characteristic{
-  height:2620px;
+#game-characteristic{
+  
 }
 
 
@@ -319,72 +351,6 @@ transform:translate(-50%,-50%);
   float:right;
   padding-right: 40px;
 }
-
-/*play*/
-#blockchaingame_characteristic{
-  border-bottom: 7px dashed white;
-}
-
-.blockchaingame_characteristic_title{
-  color:white;
-  font-size: 50px;
-  text-align: center;
-  padding-top:100px;
-  padding-bottom:70px;
-  letter-spacing: 2mm;
-}
-
-.blockchaingame_characteristic_list{ 
-  padding-top: 20px;
-  padding:  25px;  
-  height: 425px;  
-  width:90%;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 100%; 
-}
-
-.outer_flame_blockchaingame_characteristic{
-  display: inline-block;
-  padding: 12px;
-  padding-top: 25px;
-  color:  black;               
-  margin:  12px;              
-  border-radius:  5px; 
-  width:600px;
-  float: left;
-  background-color:  #2196F3;
-  height:150px;
-}
-
-.blockchaingame_characteristic_subtitle{
-  font-size: 25px;
-}
-
-.blockchaingame_characteristic_text1{
-  padding-top:15px;
-  font-size: 20px;
-  
-}
-
-.blockchaingame_characteristic_text2{
-  padding-top:15px;
-   font-size: 20px;
-  
-}
-
-.blockchaingame_characteristic_text3{
-  padding-top:15px;
-   font-size: 20px;
-  
-}
-
-.blockchaingame_characteristic_text4{
-  padding-top:15px;
-   font-size: 20px;
-  
-}
-
 
 
 /*member*/
